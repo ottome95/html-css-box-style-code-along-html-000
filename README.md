@@ -82,7 +82,107 @@ Next, bring up the style.css file in your code editor. Start by removing the bac
 
 ```
 
-Next, in the ""
+Next, in the part of the code labeled "GLOBAL" scroll to below the milk-text class add the following code:
+
+```css
+/*////////// GLOBAL //////////*/
+
+...
+
+.shadow {
+  box-shadow: 0 3px 10px #333;
+}
+```
+
+Here we sepcified a `box-shadow` which will add a drop shadow to any elements we apply this class to. 
+
+Then save the CSS page and open the index.html page in your code editor. Under the section with the id of "featured-property" lets apply our shadow class.
+
+```html
+...
+<div class="wrapper clearfix">
+
+  <section id="featured-property" class="col-3 first shadow">
+    ...
+```
+
+We will also add this class of shadow to the promotional and news sections.
+
+```html
+  <section id="promotional" class="col-2 first shadow">
+```
+
+```html
+  <section id="news" class="col-1 shadow">
+```
+
+Make sure to save the index page and then jump backover to the style.css page (still in code editor). Now we will create a new class called border-right in the bottom of the "GLOBALS" portion of the page.
+
+```css
+/*////////// GLOBAL //////////*/
+
+...
+
+.shadow {
+  box-shadow: 0 3px 10px #333;
+}
+
+.border-right {
+  border-right: 1px sdotted #ccc;
+  padding-right: 30px;
+}
+```
+
+Save the CSS file and jump back over to our imdex page and apply this class to the first twho divs within the details section at the bottom of the page.
+
+```html
+<section id="details">
+  <div class="wrapper clearfix">
+    <div class="col-1 first border-right">
+       ...
+    </div>
+    <div class="col-1 border-right">
+       ...
+    </div>
+    <div class="col-1">
+       ...
+    </div>
+  </div><!-- .wrapper -->
+</section>
+```
+
+Then save the page and refresh in the browser you should see some light gray dotted borders for the columns in the details section. next, head back to style.css in the code editor and we will add some more styles in the protion of the code labeled with the comment "BACKGROUNDS".
+
+```css
+/*////////// BACKGROUNDS //////////*/
+
+.white-wood {
+  background: url(../images/white-wood.jpg) no-repeat center top;
+  background-size: cover;
+}
+```
+
+Save the css page and head back over to the index page and add a new opening div above the `<header>` element with teh class of `white-wood`.
+
+```html
+<div class="white-wood">
+  <header>
+    ...
+  </header>
+  ...
+  <div class="wrapper clearfix">
+    <section id="featured-property">...</section>
+    <section id="promotional">...</section>
+    <section id="news">...</section>
+  </div><!-- .wrapper -->
+</div><!-- white-wood -->
+
+Don't forget to properly indent all the content inside our new white-wood div. Now save the page an preview in the browser and you should see the white wood texture appear behind all the main sections.
+
+...
+
+
+
 
 It's now time to version our changes using Git. To do so, in Terminal type `git add .` and press return. Then type `git commit -m "style backgrounds for section, navbar, and details"` and press return. Then push up this feature branch `git push -u origin navbar-and-background-styles` and press return. Next merge the changes into your master branch. Type `git checkout master` and press return, then `git merge navbar-and-background-styles` and press return. Then `git push origin master` and press return.
 
