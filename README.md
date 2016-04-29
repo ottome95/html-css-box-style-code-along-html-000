@@ -321,8 +321,60 @@ Save these files, and then back in the CSS lets add a hover state style
 }
 ```
 
+Save the CSS file and head back to the browser and refresh. You'll notice that the links are a bit jumbled. This is becuase we set them to `display: inline-block;` one thing to note about inline and inline-block elements are that white space around the characters is seen as a physical keyboard space the same as it is seen when you add spaces between words in a sentence; where as white space is ignored when surrounding block elements for example. To fix this lets remove the keyboard space between the links in the nav bars of our pages.
 
+```html
+<nav>
+  <a href="index.html" class="selected">About</a><a href="new-properties.html">New Properties</a><a href="real-estate-listings.html">Listings</a><a href="market-report.html">Market Report</a><a href="contact.html">Contact</a><a href="http://hud.gov" target="_blank">H.U.D.</a>
+</nav>
+```
 
+Than save and refresh in the browser. Just a few more things to fix up. You will notice that since we fixed the nabvbar the logo div is sliding up behind it and covering the top half. To fix this lets apply some padding to the `#logo` selector in our css file as well as remove the margin on our `h1` and `h2` inside the `#logo`.
+
+```css
+/*////////// LOGO //////////*/
+
+#logo {
+  padding: 84px 0 0;
+}
+
+#logo h1 {
+  font-family: 'Clicker Script', cursive;
+  margin: 0;
+}
+
+#logo h2 {
+  font-family: 'Elsie Swash Caps', cursive;
+  margin: 0;
+}
+```
+
+Next in the details section we will add a border on the top of the details section to highlight the separation betwene the wood and the details gradient
+
+```css
+/*////////// DETAILS //////////*/
+
+#details {
+  border-top: 1px solid white;
+}
+
+```
+
+Now for some styling on the footer section,
+
+```css
+/*////////// FOOTER //////////*/
+
+footer {
+  text-align: center;
+  font-size: 0.75em;
+  padding: 10px;
+  background: #eee;
+  border-top: 1px solid #ccc;
+}
+```
+
+Now save the CSS file and refresh in the browser. Excellent starting to look more like a professional website.
 
 It's now time to version our changes using Git. To do so, in Terminal type `git add .` and press return. Then type `git commit -m "style backgrounds for section, navbar, and details"` and press return. Then push up this feature branch `git push -u origin navbar-and-background-styles` and press return. Next merge the changes into your master branch. Type `git checkout master` and press return, then `git merge navbar-and-background-styles` and press return. Then `git push origin master` and press return.
 
