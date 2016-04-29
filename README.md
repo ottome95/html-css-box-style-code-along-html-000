@@ -55,7 +55,9 @@ The gradient code that is copied and pasted in the exercise video is available h
   background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(71,71,71,1) 28%,rgba(81,81,81,1) 35%,rgba(71,71,71,1) 72%,rgba(43,43,43,1) 87%,rgba(28,28,28,1) 91%,rgba(0,0,0,1) 100%); /* W3C */
 ```
 
-It's now time to version our changes using Git. To do so, in Terminal type `git add .` and press return. Then type `git commit -m "add css style to all pages"` and press return. Then push up this feature branch `git push -u origin site-style` and press return. Next merge the changes into your master branch. Type `git checkout master` and press return, then `git merge site-style` and press return. Then `git push origin master` and press return.
+...
+
+It's now time to version our changes using Git. To do so, in Terminal type `git add .` and press return. Then type `git commit -m "style backgrounds for section, navbar, and details"` and press return. Then push up this feature branch `git push -u origin navbar-and-background-styles` and press return. Next merge the changes into your master branch. Type `git checkout master` and press return, then `git merge navbar-and-background-styles` and press return. Then `git push origin master` and press return.
 
 After you finish, make sure you install Firefox if you haven't already as it is required for the screenshot tests to run. Then, type learn command from Terminal to run local tests (Mac) or type learn-test for Windows.
 
