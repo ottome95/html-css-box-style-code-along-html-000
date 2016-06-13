@@ -94,7 +94,7 @@ Next, in the part of the code labeled "GLOBAL" scroll to below the milk-text cla
 }
 ```
 
-Here we sepcified a `box-shadow` which will add a drop shadow to any elements we apply this class to. 
+Here we specified a `box-shadow` which will add a drop shadow to any elements we apply this class to. 
 
 Then save the CSS page and open the index.html page in your code editor. Under the section with the id of "featured-property" lets apply our shadow class.
 
@@ -133,7 +133,7 @@ Make sure to save the index page and then jump backover to the style.css page (s
 }
 ```
 
-Save the CSS file and jump back over to our imdex page and apply this class to the first twho divs within the details section at the bottom of the page.
+Save the CSS file and jump back over to our index page and apply this class to the first two divs within the details section at the bottom of the page.
 
 ```html
 <section id="details">
@@ -162,7 +162,7 @@ Then save the page and refresh in the browser you should see some light gray dot
 }
 ```
 
-Save the css page and head back over to the index page and add a new opening div above the `<header>` element with teh class of `white-wood`.
+Save the css page and head back over to the index page and add a new opening div above the `<header>` element with the class of `white-wood`.
 
 ```html
 <div class="white-wood">
@@ -178,7 +178,7 @@ Save the css page and head back over to the index page and add a new opening div
 </div><!-- white-wood -->
 ```
 
-Don't forget to properly indent all the content inside our new white-wood div. Now save the page an preview in the browser and you should see the white wood texture appear behind all the main sections.
+Don't forget to properly indent all the content inside our new white-wood div. Now save the page and preview in the browser and you should see the white wood texture appear behind all the main sections.
 
 Next head back over to the style.css file in your code editor and we will add some white backgrounds to our section elements.
 
@@ -379,3 +379,5 @@ Now save the CSS file and refresh in the browser. Excellent starting to look mor
 It's now time to version our changes using Git. To do so, in Terminal type `git add .` and press return. Then type `git commit -m "style backgrounds for section, navbar, and details"` and press return. Then push up this feature branch `git push -u origin navbar-and-background-styles` and press return. Next merge the changes into your master branch. Type `git checkout master` and press return, then `git merge navbar-and-background-styles` and press return. Then `git push origin master` and press return.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/fe-code-along-ex-5' title='Code Along Exercise 5'>Code Along Exercise 5</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/html-css-box-style-code-along'>Box Style Code-Along</a> on Learn.co and start learning to code for free.</p>
