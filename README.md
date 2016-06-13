@@ -219,7 +219,7 @@ Next we will work on creating some nice gradient backgrounds in the header, deta
 }
 ```
 
-Then save the CSS file and head over to the index page and adpply the `medium-fade` and `shadow` classes to the `<header>`.
+Then save the CSS file and head over to the index page and apply the `medium-fade` and `shadow` classes to the `<header>`.
 
 ```html
 <header class="medium-fade shadow">
