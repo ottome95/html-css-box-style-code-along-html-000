@@ -4,7 +4,7 @@
 
 1. Review CSS Background property
 2. Review CSS Box Shadow
-3. Review CSS Gardient backgrounds.
+3. Review CSS Gradient backgrounds.
 
 ## Introduction
 
