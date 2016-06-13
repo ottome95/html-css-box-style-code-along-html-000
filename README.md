@@ -219,7 +219,7 @@ Next we will work on creating some nice gradient backgrounds in the header, deta
 }
 ```
 
-Then save the CSS file and head over to the index page and adpply the `medium-fade` and `shadow` classes to the `<header>`.
+Then save the CSS file and head over to the index page and apply the `medium-fade` and `shadow` classes to the `<header>`.
 
 ```html
 <header class="medium-fade shadow">
@@ -379,3 +379,5 @@ Now save the CSS file and refresh in the browser. Excellent starting to look mor
 It's now time to version our changes using Git. To do so, in Terminal type `git add .` and press return. Then type `git commit -m "style backgrounds for section, navbar, and details"` and press return. Then push up this feature branch `git push -u origin navbar-and-background-styles` and press return. Next merge the changes into your master branch. Type `git checkout master` and press return, then `git merge navbar-and-background-styles` and press return. Then `git push origin master` and press return.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/fe-code-along-ex-5' title='Code Along Exercise 5'>Code Along Exercise 5</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/html-css-box-style-code-along'>Box Style Code-Along</a> on Learn.co and start learning to code for free.</p>
