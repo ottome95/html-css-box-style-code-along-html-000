@@ -300,7 +300,7 @@ Save the CSS file and then apply the class of selected to the first link in the 
 </nav>
 ```
 
-Go to each of the pages and add the cl;ass of selected for each link that represents that page so on the contact.html page the contact link should have the class of selected applied instead.
+Go to each of the pages and add the class of selected for each link that represents that page so on the contact.html page the contact link should have the class of selected applied instead.
 
 Save these files, and then back in the CSS lets add a hover state style
 
@@ -321,7 +321,7 @@ Save these files, and then back in the CSS lets add a hover state style
 }
 ```
 
-Save the CSS file and head back to the browser and refresh. You'll notice that the links are a bit jumbled. This is becuase we set them to `display: inline-block;` one thing to note about inline and inline-block elements are that white space around the characters is seen as a physical keyboard space the same as it is seen when you add spaces between words in a sentence; where as white space is ignored when surrounding block elements for example. To fix this lets remove the keyboard space between the links in the nav bars of our pages.
+Save the CSS file and head back to the browser and refresh. You'll notice that the links are a bit jumbled. This is because we set them to `display: inline-block;` one thing to note about inline and inline-block elements are that white space around the characters is seen as a physical keyboard space the same as it is seen when you add spaces between words in a sentence; where as white space is ignored when surrounding block elements for example. To fix this lets remove the keyboard space between the links in the nav bars of our pages.
 
 ```html
 <nav>
