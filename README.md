@@ -300,7 +300,7 @@ Save the CSS file and then apply the class of selected to the first link in the 
 </nav>
 ```
 
-Go to each of the pages and add the cl;ass of selected for each link that represents that page so on the contact.html page the contact link should have the class of selected applied instead.
+Go to each of the pages and add the class of selected for each link that represents that page so on the contact.html page the contact link should have the class of selected applied instead.
 
 Save these files, and then back in the CSS lets add a hover state style
 
@@ -321,7 +321,7 @@ Save these files, and then back in the CSS lets add a hover state style
 }
 ```
 
-Save the CSS file and head back to the browser and refresh. You'll notice that the links are a bit jumbled. This is becuase we set them to `display: inline-block;` one thing to note about inline and inline-block elements are that white space around the characters is seen as a physical keyboard space the same as it is seen when you add spaces between words in a sentence; where as white space is ignored when surrounding block elements for example. To fix this lets remove the keyboard space between the links in the nav bars of our pages.
+Save the CSS file and head back to the browser and refresh. You'll notice that the links are a bit jumbled. This is because we set them to `display: inline-block;` one thing to note about inline and inline-block elements are that white space around the characters is seen as a physical keyboard space the same as it is seen when you add spaces between words in a sentence; where as white space is ignored when surrounding block elements for example. To fix this lets remove the keyboard space between the links in the nav bars of our pages.
 
 ```html
 <nav>
@@ -379,3 +379,5 @@ Now save the CSS file and refresh in the browser. Excellent starting to look mor
 It's now time to version our changes using Git. To do so, in Terminal type `git add .` and press return. Then type `git commit -m "style backgrounds for section, navbar, and details"` and press return. Then push up this feature branch `git push -u origin navbar-and-background-styles` and press return. Next merge the changes into your master branch. Type `git checkout master` and press return, then `git merge navbar-and-background-styles` and press return. Then `git push origin master` and press return.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/fe-code-along-ex-5' title='Code Along Exercise 5'>Code Along Exercise 5</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/html-css-box-style-code-along'>Box Style Code-Along</a> on Learn.co and start learning to code for free.</p>
